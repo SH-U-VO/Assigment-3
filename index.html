@@ -85,7 +85,7 @@
 
         <!-- front section starts here -->
         <section>
-            <div class="hero bg-base-200 min-h-screen">
+            <div class="hero bg-base-200">
                 <div class="hero-content">
                     <div class="max-w-md">
                         <img class="mb-6 " src="assets/banner.png" alt="">
@@ -224,6 +224,8 @@
             </div>
         </section>
         <!-- our section ends here -->
+
+
         <!-- latest portfolio section -->
         <section class="bg-white pt-10">
             <!-- paragraph section -->
@@ -267,15 +269,15 @@
             <!-- hero-2 section starts  -->
             <div class="hero bg-base-200">
                 <div class="hero-content flex-col lg:flex-row-reverse">
-                    <img src="assets/img5.png" class="max-w-sm rounded-lg shadow-2xl" />
+                    <img src="assets/img5.png" class=" rounded-lg shadow-2xl" />
                     <div>
                         <div class="hero bg-base-200">
                             <div class="hero-content flex-col lg:flex-row">
-                                <img src="assets/img3.png" class="max-w-sm rounded-lg shadow-2xl" />
+                                <img src="assets/img3.png" class=" rounded-lg shadow-2xl" />
                                 <div>
                                     <div class="hero bg-base-200">
                                         <div class="hero-content flex-col lg:flex-row">
-                                            <img src="assets/img4.png" class="max-w-sm rounded-lg shadow-2xl" />
+                                            <img src="assets/img4.png" class=" rounded-lg shadow-2xl" />
                                             <div>
                                                 <h1 class="text-5xl font-bold">Commercia</h1>
                                                 <p class="py-6">
@@ -296,21 +298,23 @@
             </div>
         </section>
         <!-- latest portfolio section ends here -->
+
+
         <!-- Read section starts here -->
-        <section>
+        <section class="lg:mx-32 lg:my-24">
             <div class=" flex flex-col items-center p-10">
                 <a class="btn bg-[#ABEF5F] p-5 rounded-3xl mb-4">
-                    <i class="fa-solid fa-arrow-right text-black p-1 rounded-full"></i>Explore our Latest works
+                    <i class="fa-solid fa-arrow-right text-black p-1 rounded-full"></i>Rinterio News
                 </a>
-                <h1 class="text-5xl font-bold">Our Latest Portfolio</h1>
-                <p class="py-6 text-[#494949]">
+                <h1 class="text-5xl font-bold">Read Our Articles and News</h1>
+                <p class=" py-7 text-[#494949]">
                     The barn house captivates with its blend of rustic charm and modern sophistication, featuring
                     weathered wood, sleek metal accents.
                 </p>
             </div>
 
             <!-- card starts -->
-            <div class="grid grid-cols-3 gap-3 justify-items-center">
+            <div class="grid grid-cols-1 w-full lg:grid-cols-3 gap-3 justify-items-center">
                 <!-- card-1 -->
                 <div class="card bg-base-100 w-96 shadow-sm">
                     <figure>
@@ -382,12 +386,79 @@
         <!-- Read section ends here -->
 
         <!-- next project section starts here -->
-         
-         <!-- next project section ends here  -->
+        <section class="">
+            <div class="relative">
+                <div class=" bg-gray-100 flex items-center justify-center">
+                    <div
+                        class="bg-[url('../assets/bg.jpg')] bg-cover bg-center bg-no-repeat rounded-lg shadow-xl py-20 px-10 lg:px-44 w-full h-full relative min-h-screen">
+                        <div class="flex justify-center">
+                            <a class="btn bg-[#ABEF5F] p-5 rounded-3xl mb-4 ">
+                                <i class="fa-solid fa-arrow-right text-black p-1 rounded-full"></i>Rinterio News
+                            </a>
+                        </div>
+
+                        <h2 class="text-3xl font-semibold mb-4 text-center">Let's Discuss Next Project</h2>
+
+                        <p class="text-center text-gray-600 mb-8">
+                            The barn house ceptivates with its blend of rustic charm and modern sophistication featuring
+                            weathered wood, sleek metal accents.
+                        </p>
+
+                        <form class="space-y-4">
+                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                                <input type="text" placeholder="First Name "
+                                    class="input input-bordered w-full rounded-3xl" />
+                                <input type="text" placeholder="Last Name "
+                                    class="input input-bordered w-full rounded-3xl" />
+                                <input type="text" placeholder="Phone Number"
+                                    class="input input-bordered w-full rounded-3xl" />
+                                <input type="text" placeholder="Email Number "
+                                    class="input input-bordered w-full rounded-3xl" />
+
+                            </div>
+
+                            <textarea class="textarea textarea-bordered w-full rounded-3xl min-h-44"
+                                placeholder="Write your message here"></textarea>
+
+                            <button class="btn w-full bg-[#ABEF5F] rounded-3xl">Send Mail
+                                <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1 rounded-full"></i>
+                            </button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- next project section ends here  -->
     </main>
 
     <footer>
+        <!-- footer section -->
+        <section class="bg-black text-white ">
+            <div class=" flex flex-col items-center p-10 md:py-30">
+                <div>
+                    <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] p-2 rounded-full"></i>
+                    <a class="btn btn-ghost text-xl manrope-font font-bold">Rinterio</a>
+                </div>
+                <p class=" py-7 text-[#494949]">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                    weathered wood, sleek metal accents.
+                </p>
+                <div class="flex flex-col lg:flex-row gap-12 mb-5">
+                    <h1>Home</h1>
+                    <h1>Services</h1>
+                    <h1>Portfolio</h1>
+                    <h1>Blogs</h1>
+                    <h1>Contact Us</h1>
+                </div>
+                <a class="btn bg-[#ABEF5F] p-5 rounded-3xl ">View Details
+                    <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1 rounded-full"></i>
+                </a>
+            </div>
 
+            
+        </section>
     </footer>
 </body>
 
